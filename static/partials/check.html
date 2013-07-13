@@ -1,0 +1,19 @@
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label">IBAN</label>
+    <div class="controls">
+      <input type="text" placeholder="IBAN" ng-model="iban">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <button type="submit" class="btn" ng-click="checkIban()">Verificar</button>
+    </div>
+  </div>
+</form>
+<div class="text-center" ng-show="result">
+  <h4>{{ result.iban }} &eacute; 
+    <span class="iban-valid" ng-show="result.isValid">v&aacute;lido</span>
+    <span class="iban-invalid" ng-show="!result.isValid">inv&aacute;lido</span>
+  </h4>
+</div>

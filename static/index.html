@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="iban-generator">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBAN Generator</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/iban-generator.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#/">IBAN Generator</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li ng-class="{ 'active': menu == 'make' }"><a href="#/">Gerar</a></li>
+              <li ng-class="{ 'active': menu == 'check' }"><a href="#/check">Verificar</a></li>
+              <li><a href="https://github.com/lkraider/iban-generator">Sobre (GitHub)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" ng-view></div>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/iban-generator.js"></script>
+  </body>
+</html>

@@ -45,5 +45,5 @@ class IBAN(webapp2.RequestHandler):
 
 
 application = webapp2.WSGIApplication([
-    ('/', IBAN),
+    ('/rest/', IBAN),
 ], debug=True)
