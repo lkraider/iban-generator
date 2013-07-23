@@ -1,0 +1,11 @@
+body {
+  padding-top: 60px;
+}
+
+.iban-valid {
+  color: green;
+}
+
+.iban-invalid {
+  color: red;
+}

@@ -1,0 +1,56 @@
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label">Ag&ecirc;ncia</label>
+    <div class="controls">
+      <input type="text" placeholder="Ag&ecirc;ncia" ng-model="agency">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">Conta</label>
+    <div class="controls">
+      <input type="text" placeholder="Conta" ng-model="account">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">ISPB</label>
+    <div class="controls">
+      <input  type="text" placeholder="ISPB" ng-model="ispb">
+      <button class="btn" type="button" data-toggle="modal" data-target="#ispbModal"><i class="icon-search"></i></button>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <button id="makeButton" type="submit" class="btn" ng-click="makeIban()">Gerar</button>
+    </div>
+  </div>
+</form>
+<div class="text-center"><h4>{{ result }}</h4></div>
+
+<div id="ispbModal" class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3>Selecione um ISPB</h3>
+  </div>
+  <div class="modal-body">
+    <input type="text" ng-model="ispbFilter" placeholder="Filtro">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th style="width: 15%">ISPB</th>
+          <th style="width: 70%">Banco</th>
+          <th style="width: 15%"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="bank in banks | filter: ispbFilter">
+          <td>{{ bank.ispb }}</td>
+          <td>{{ bank.name }}</td>
+          <td><button class="btn" type="button" data-dismiss="modal" ng-click="selectIspb(bank.ispb)">Selecionar</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal">Cancelar</button>
+  </div>
+</div>

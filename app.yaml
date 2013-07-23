@@ -5,5 +5,21 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /.*
+- url: /rest/.*
   script: iban_rest.application
+
+- url: /css
+  static_dir: static/css
+
+- url: /js
+  static_dir: static/js
+
+- url: /img
+  static_dir: static/img
+
+- url: /partials
+  static_dir: static/partials
+
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
