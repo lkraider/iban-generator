@@ -20,8 +20,8 @@ provides good information on the algorithms.
 provides detailed information about all ISO 13616 compliant national IBAN
 formats.
 
-[IBAN Implementation Guidelines for Brazil](www.bcb.gov.br/?IBAN-ING),
+[IBAN Implementation Guidelines for Brazil](http://www.bcb.gov.br/?IBAN-ING),
 a complete description of the algorithm for Brazilian Banks.
 
-[BACEN ISPB list](www.bcb.gov.br/?RELPARTSTR), the full list of ISPB codes
+[BACEN ISPB list](http://www.bcb.gov.br/?RELPARTSTR), the full list of ISPB codes
 for Brazilian Banks.
