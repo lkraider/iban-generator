@@ -23,5 +23,7 @@ formats.
 [IBAN Implementation Guidelines for Brazil](http://www.bcb.gov.br/?IBAN-ING),
 a complete description of the algorithm for Brazilian Banks.
 
+[FEBRABAN MT101](https://www.febraban.org.br/Febraban.asp?id_pagina=1016&id_paginaDe=110) has a more detailed description of the values used in the IBAN code for Brazilian Banks.
+
 [BACEN ISPB list](http://www.bcb.gov.br/?RELPARTSTR), the full list of ISPB codes
 for Brazilian Banks.
