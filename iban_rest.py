@@ -30,7 +30,7 @@ class IBAN(webapp2.RequestHandler):
             return self._make_iban(data)
 
     def _check_iban(self, value):
-        check = iban.check_iban(value)
+        check = iban.check_iban(value.upper())
         self.response.write(json.dumps({'valid': check}))
 
     def _make_iban(self, data):
