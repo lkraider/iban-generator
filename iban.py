@@ -9,6 +9,7 @@ ISPB = {
     'Banco BNP Paribas Brasil S.A.': '01522368',
     'Banco Bradesco S.A.': '60746948',
     'Banco Citibank S.A.': '33479023',
+    'Banco Caixa Econômica Federal': '00360305',
     'Banco Cooperativo Sicredi S.A.': '01181521',
     'Banco de La Nacion Argentina': '33042151',
     'Banco de La Provincia de Buenos Aires': '44189447',
@@ -28,7 +29,7 @@ ISPB = {
     'HSBC Bank Brasil S.A. Banco Múltiplo': '01701201',
     'Itaú Unibanco S.A.': '60701190',
     'Natixis Brasil S.A. Banco Múltiplo': '09274232',
-    'Unibanco - União de Bancos Brasileiros S.A.': '33700394',
+    'Unibanco - União de Bancos Brasileiros S.A.': '33700394'
 }
 
 
