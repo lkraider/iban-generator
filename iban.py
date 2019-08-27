@@ -17,6 +17,7 @@ ISPB = {
     'Banco de Tokyo-Mitsubishi UFJ Brasil S.A.': '60498557',
     'Banco do Brasil S.A.': '00000000',
     'Banco do Estado do Rio Grande do Sul S.A.': '92702067',
+    'Banco Inter S.A.': '00416968',
     'Banco Intercap S.A.': '58497702',
     'Banco Itaú BBA S.A.': '17298092',
     'Banco Mercantil do Brasil S.A.': '17184037',
@@ -26,9 +27,11 @@ ISPB = {
     'Banco Société Générale Brasil S.A.': '61533584',
     'BRB - Banco de Brasí­lia S.A.': '00000208',
     'Deutsche Bank S.A. Banco Alemão': '62331228',
+    'Easynvest - Título Corretora de Valores SA': '62169875',
     'HSBC Bank Brasil S.A. Banco Múltiplo': '01701201',
     'Itaú Unibanco S.A.': '60701190',
     'Natixis Brasil S.A. Banco Múltiplo': '09274232',
+    'Nu Pagamentos S.A': '18236120',
     'Unibanco - União de Bancos Brasileiros S.A.': '33700394'
 }
 
