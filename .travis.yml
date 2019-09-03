@@ -1,0 +1,6 @@
+deploy:
+  provider: gae
+  keyfile: gae.json
+  project: iban-generator
+before_install:
+  - openssl aes-256-cbc -K $encrypted_e3c7f15628a3_key -iv $encrypted_e3c7f15628a3_iv -in gae.json.enc -out gae.json -d
